@@ -1,0 +1,57 @@
+/* Logo and Phone No.*/
+.Box1{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    color: white;
+    border: 10px;
+    text-align: center;
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
+.logo {
+    display: flex;
+    background-color: green;
+    border-color: red;
+    width: 40%;
+    text-align: center;
+}
+
+.PhoneMenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    align-items: flex-end;
+}
+
+.PhoneNo {
+    display: flex;
+    background-color: orange;
+    border-color: blue;
+    align-items: flex-end;
+}
+
+.Menu1{
+    display: flex;
+    text-align: center;
+    background-color: teal;
+    justify-content: center;
+    margin: 15px;
+}
+
+.ImageSlideshow {
+    display: flex;
+    text-align: center;
+    background-color: wheat;
+    justify-content: center;
+}
+
+.Slideshow1 {
+    display: flex;
+    background-color: violet;
+    justify-content: center;
+    margin: 20px;
+    height: 150px;
+}
