@@ -1,0 +1,72 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    background-color: gray;
+    flex-wrap: wrap;
+}
+
+p{
+    font: larger;
+    color: white;
+    text-align: center;
+
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+
+.logophoneno {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.PhoneMenu {
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 30%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo {
+    height: 190px;
+    width: 100px;
+}
+
+.Phone {
+    width: 150px;
+}
+.Menu {
+    width: 80px;
+    border: solid black;
+}
+
+.textcontentssidebar{
+    display: inline-flex;
+    flex: 1 1 100%;
+    
+    /* align-items: center; */
+}
+
+.TextContent {
+    display: inline-flex;
+    flex-direction: column;
+}
+.Slideshow1{
+height: 200px;
+}
+
+.Sidebar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer {
+    height: 150px;
+}
