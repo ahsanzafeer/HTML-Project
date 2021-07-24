@@ -1,57 +1,65 @@
-/* Logo and Phone No.*/
-.Box1{
+.main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    border: solid;
     background-color: gray;
-    color: white;
-    border: 10px;
-    text-align: center;
-    flex-grow: 1;
-    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
-.logo {
-    display: flex;
-    background-color: green;
-    border-color: red;
-    width: 40%;
-    text-align: center;
+.logophoneno{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.logo{
+max-width: 100px;
 }
 
-.PhoneMenu {
+.PhoneMenu{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    color: white;
-    align-items: flex-end;
+    flex: 2 1 30%;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.PhoneNo {
-    display: flex;
-    background-color: orange;
-    border-color: blue;
-    align-items: flex-end;
+.Menu{
+height: 150px;
 }
 
-.Menu1{
-    display: flex;
-    text-align: center;
-    background-color: teal;
-    justify-content: center;
-    margin: 15px;
+.Feat {
+    display: inline-flex;
+    justify-content: space-around;
 }
-
-.ImageSlideshow {
-    display: flex;
-    text-align: center;
-    background-color: wheat;
-    justify-content: center;
-}
-
-.Slideshow1 {
-    display: flex;
-    background-color: violet;
-    justify-content: center;
-    margin: 20px;
+.feat1, .feat2, .feat3, .feat4 {
     height: 150px;
+    width: 200px;
+
+}
+.textcontentssidebar{
+    display: inline-flex;
+    flex: 1 1 100%;
+    /* align-items: center; */
+}
+
+.TextContent{
+    flex: 2 1 66%;
+    height: 150px;
+}
+.Sidebar {
+    width: 100px;
+    flex: 1 1 33%;
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+
+p{
+    font: larger;
+    color: white;
+    text-align: center;
+
 }
